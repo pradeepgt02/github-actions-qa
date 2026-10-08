@@ -1,0 +1,30 @@
+  {
+  "name": "github-actions-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+"scripts": {
+  "test": "playwright test",
+  "test:ci": "playwright test tests/ci-smoke.spec.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeepgt02/github-actions-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pradeepgt02/github-actions-qa/issues"
+  },
+  "homepage": "https://github.com/pradeepgt02/github-actions-qa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "jest": "^30.5.1",
+    "playwright": "^1.62.1"
+  }
+}

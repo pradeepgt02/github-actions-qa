@@ -1,6 +1,4 @@
-.github/workflows/playwright.yml
-V2/
-package-lock.json
-package.json
-pages/
-tests/ci-smoke.spec.js
+node_modules/
+test-results/
+playwright-report/
+blob-report/
