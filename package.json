@@ -8,7 +8,10 @@
   },
 "scripts": {
   "test": "playwright test",
-  "test:ci": "playwright test tests/ci-smoke.spec.js"
+  "test:ci": "playwright test tests/ci-smoke.spec.js",
+  "test:ci:report": "playwright test --config=playwright.config.js tests/ci-smoke.spec.js",
+  "test:headed": "playwright test --headed",
+  "test:report": "playwright show-report"
 },
   "repository": {
     "type": "git",
